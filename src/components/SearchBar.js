@@ -19,7 +19,7 @@ const SearchBar = ({ onTermSubmit }) => {
 		<div className='search-bar box'>
 			<form onSubmit={userFormSubmit}>
 				<div className='field'>
-					<label className='label'>Video Search</label>
+					<label className='label'>Search For A Video</label>
 					<div className='control is-expanded'>
 						<input className='input' type='text' value={term} onChange={userInput} />
 					</div>
